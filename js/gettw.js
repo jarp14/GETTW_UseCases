@@ -558,7 +558,7 @@ $(go.Link,
 	},
 	new go.Binding("points").makeTwoWay(),
 	$(go.Shape, // la forma de la línea
-		{ isPanelMain: true },
+		{ isPanelMain: true, cursor: "grab" },
 		new go.Binding("stroke", "linkStrokeColor"),
 		new go.Binding("strokeWidth", "linkStrokeWidth"),
 		new go.Binding("strokeDashArray", "dash",
